@@ -9,6 +9,7 @@ return {
   { import = "astrocommunity.colorscheme.sonokai"},
   { import = "astrocommunity.colorscheme.onedarkpro-nvim"},
   { import = "astrocommunity.editing-support.multicursors-nvim"},
+  { import = "astrocommunity.pack.clojure"},
 
 
   -- { import = "astrocommunity.completion.copilot-lua-cmp" },
