@@ -428,10 +428,10 @@ maps.v["<S-Tab>"] = { "<gv", desc = "Unindent line" }
 maps.v["<Tab>"] = { ">gv", desc = "Indent line" }
 
 -- Improved Terminal Navigation
-maps.t["<C-h>"] = { "<cmd>wincmd h<cr>", desc = "Terminal left window navigation" }
-maps.t["<C-j>"] = { "<cmd>wincmd j<cr>", desc = "Terminal down window navigation" }
-maps.t["<C-k>"] = { "<cmd>wincmd k<cr>", desc = "Terminal up window navigation" }
-maps.t["<C-l>"] = { "<cmd>wincmd l<cr>", desc = "Terminal right window navigation" }
+maps.t["<c-h>"] = { "<cmd>wincmd h<cr>", desc = "Terminal left window navigation" }
+maps.t["<c-j>"] = { "<cmd>wincmd j<cr>", desc = "Terminal down window navigation" }
+maps.t["<c-k>"] = { "<cmd>wincmd k<cr>", desc = "Terminal up window navigation" }
+maps.t["<c-l>"] = { "<cmd>wincmd l<cr>", desc = "Terminal right window navigation" }
 
 maps.n["<leader>u"] = sections.u
 -- Custom menu for modification of the user experience
