@@ -33,7 +33,7 @@ return {
     -- ["<leader>a"] = {"<cmd>ToggleTermSendCurrentLine<cr>",desc = "Send to Terminal" },
 
     -- Binding for vim-slime
-    ["<leader>a"] = {"<Plug>SlimeParagraphSend",desc = "Send to Terminal" },
+    ["<leader>a"] = { "<Plug>SlimeParagraphSend", desc = "Send to Terminal" },
 
     -- quick save
     -- ["<C-s>"] = { ":w!<cr>", desc = "Save File" },  -- change description but the same command
@@ -43,6 +43,6 @@ return {
     -- ["<esc>"] = false,
   },
   v = {
-   -- ["<leader>a"] = {"<cmd>ToggleTermSendVisualLines<cr>",desc = "Send to Terminal" }, 
+    -- ["<leader>a"] = {"<cmd>ToggleTermSendVisualLines<cr>",desc = "Send to Terminal" },
   },
 }
