@@ -35,6 +35,7 @@ return {
     -- Binding for vim-slime
     ["<leader>a"] = { "<Plug>SlimeParagraphSend", desc = "Send to Terminal" },
 
+    ["<leader>r"] = { "<cmd>ToggleTerm direction=float<cr> cargo run<cr>", desc = "Rust - Cargo Run" },
     -- quick save
     -- ["<C-s>"] = { ":w!<cr>", desc = "Save File" },  -- change description but the same command
   },
