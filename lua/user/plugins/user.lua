@@ -17,4 +17,8 @@ return {
       vim.g.slime_no_mappings = 1
     end,
   },
+  {
+    "ctrlpvim/ctrlp.vim",
+    lazy = false,
+  },
 }
